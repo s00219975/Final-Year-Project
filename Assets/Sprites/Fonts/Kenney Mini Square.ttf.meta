@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 8aa8da16f5174bd49bd5e3fdba5f5541
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Kenney Mini Square
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3201cefe2caa984419dbe2a26c315e6e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
