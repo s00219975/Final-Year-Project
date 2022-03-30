@@ -27,7 +27,7 @@ public class Character : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(playerMovement.body.velocity.y != 0 )
+        if(playerMovement.body.velocity.y > 0.1f || playerMovement.body.velocity.y < -0.1f)
         {
             State = CharacterState.Jump;
         }

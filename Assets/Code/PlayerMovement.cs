@@ -67,7 +67,7 @@ public class PlayerMovement : MonoBehaviour
             ContactPoint2D contact = collision.contacts[0]; //get me the first contact
             
             //normal is the surface direction, Vector2.up
-            if (Vector2.Dot(contact.normal, Vector2.up) > 0.5)
+            if (Vector2.Dot(contact.normal, Vector2.up) > 0.25)
             {
                 canJump = true;
             }
