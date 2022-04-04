@@ -6,6 +6,8 @@ TagManager:
   tags:
   - RestartPoint
   - Kill
+  - mainEnemy
+  - InstantKill
   layers:
   - Default
   - TransparentFX

@@ -6,6 +6,7 @@ public class MainEnemyController : EnemyController
 {
     public float movementSpeed = 4;
     public float AttackRange = 600;
+    public int Damage = 1;
 
     GameObject player;
 

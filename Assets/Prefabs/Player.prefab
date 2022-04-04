@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 697096534051519966}
   - component: {fileID: 3513581061123122838}
   - component: {fileID: 3513581061123122832}
+  - component: {fileID: 8423343794733835990}
   - component: {fileID: 3513581061123122835}
   m_Layer: 0
   m_Name: Player
@@ -160,6 +161,22 @@ MonoBehaviour:
   jumpHeight: {x: 0, y: 7}
   canJump: 1
   body: {fileID: 0}
+--- !u!114 &8423343794733835990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3513581061123122842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8571e99a5c7fead42a649f65f8d772fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imgHealthBar: {fileID: 0}
+  Blood: {fileID: 0}
+  Health: 3
+  MaxHealth: 3
 --- !u!114 &3513581061123122835
 MonoBehaviour:
   m_ObjectHideFlags: 0

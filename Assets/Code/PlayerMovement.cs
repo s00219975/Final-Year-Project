@@ -56,12 +56,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Kill"))
-        {
-            //set the position to be last checkpoint position
-            transform.position = RestartPosition;
-        }
-
         if (collision.contactCount > 0) //points at which the player hits another object
         {
             ContactPoint2D contact = collision.contacts[0]; //get me the first contact
