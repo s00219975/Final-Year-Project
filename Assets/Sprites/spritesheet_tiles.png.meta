@@ -240,6 +240,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1840,6 +1841,79 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      spritesheet_tiles_46: 6432887398619268534
+      spritesheet_tiles_6: 2117403269165919287
+      spritesheet_tiles_31: -2902531871432834717
+      spritesheet_tiles_19: -1156093037306974940
+      spritesheet_tiles_8: -6018064022159973408
+      spritesheet_tiles_53: 1738377741183723119
+      spritesheet_tiles_10: 5787399853267312878
+      spritesheet_tiles_34: -8441355718831199998
+      spritesheet_tiles_37: 7748992959964421848
+      spritesheet_tiles_12: 2179939483462905045
+      spritesheet_tiles_23: 1019041286554290781
+      spritesheet_tiles_40: -8691042974722780499
+      spritesheet_tiles_22: -3662801943505601644
+      spritesheet_tiles_49: -170708402282451403
+      spritesheet_tiles_59: -6956357820720668745
+      spritesheet_tiles_25: -1503110041291416208
+      spritesheet_tiles_50: -7431450831449291834
+      spritesheet_tiles_60: 8267154180720108585
+      spritesheet_tiles_58: -3428630216044500254
+      spritesheet_tiles_61: 7254876792885515751
+      spritesheet_tiles_69: 7720860173626254462
+      spritesheet_tiles_47: 6120437822995767798
+      spritesheet_tiles_17: -260515462389292431
+      spritesheet_tiles_38: -8798606703005503284
+      spritesheet_tiles_68: 892666127586952640
+      spritesheet_tiles_14: -7873261277370747149
+      spritesheet_tiles_71: 3541299070501893557
+      spritesheet_tiles_64: 8818778457139991866
+      spritesheet_tiles_0: 1304329097595725364
+      spritesheet_tiles_45: -6991794038019918606
+      spritesheet_tiles_21: -4208296703716776186
+      spritesheet_tiles_11: -3459930468490354741
+      spritesheet_tiles_28: -7757319807094046811
+      spritesheet_tiles_27: -922454219991527994
+      spritesheet_tiles_3: -3136654293347401231
+      spritesheet_tiles_36: -7270410417022846323
+      spritesheet_tiles_41: 1063925014445706382
+      spritesheet_tiles_63: -4454216005661745297
+      spritesheet_tiles_65: -3029825341784978248
+      spritesheet_tiles_67: -8383627136487346725
+      spritesheet_tiles_30: 789226401817015519
+      spritesheet_tiles_62: 7974388585008182149
+      spritesheet_tiles_1: 498447969895038645
+      spritesheet_tiles_9: 5969139416435413973
+      spritesheet_tiles_55: -4424401836724430592
+      spritesheet_tiles_44: -8581057299905944269
+      spritesheet_tiles_26: 7545772485484043351
+      spritesheet_tiles_4: -8572984662020693102
+      spritesheet_tiles_70: -7000262408024062605
+      spritesheet_tiles_39: -1843620457765212304
+      spritesheet_tiles_52: -1609426497797727180
+      spritesheet_tiles_42: -5358234530699879422
+      spritesheet_tiles_48: -3597371162837379509
+      spritesheet_tiles_43: -4689445804998014852
+      spritesheet_tiles_32: -1682673200241544354
+      spritesheet_tiles_13: 2915934005707821052
+      spritesheet_tiles_35: -3283326684835722766
+      spritesheet_tiles_7: 6632456070670217079
+      spritesheet_tiles_18: 6138680278838725794
+      spritesheet_tiles_57: -3274754883251895909
+      spritesheet_tiles_16: -4032811690600655237
+      spritesheet_tiles_56: -1869919141704909821
+      spritesheet_tiles_29: -4399247711900809237
+      spritesheet_tiles_54: -8342566137731082020
+      spritesheet_tiles_2: 8168217459064676619
+      spritesheet_tiles_33: -180232178959487186
+      spritesheet_tiles_66: 3679943920716158237
+      spritesheet_tiles_51: -5754109757834980608
+      spritesheet_tiles_24: 7497367039862481026
+      spritesheet_tiles_5: -2215523453213313782
+      spritesheet_tiles_15: 6614849640125149502
+      spritesheet_tiles_20: -2245806306279625122
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

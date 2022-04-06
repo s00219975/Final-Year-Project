@@ -195,6 +195,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1480,6 +1481,64 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      spritesheet_enemies_8: 4418005393109676608
+      spritesheet_enemies_5: 4129203520044859272
+      spritesheet_enemies_0: 9128649472322045938
+      spritesheet_enemies_33: 7700288940187353924
+      spritesheet_enemies_49: 7650388437565982940
+      spritesheet_enemies_26: 5096194704440862151
+      spritesheet_enemies_9: -2486701741819592134
+      spritesheet_enemies_55: 8737786360184435541
+      spritesheet_enemies_29: 8195179573387216680
+      spritesheet_enemies_25: 1294850752278174991
+      spritesheet_enemies_42: 8844310127315292751
+      spritesheet_enemies_4: 6681734020997136816
+      spritesheet_enemies_43: -5060119304506530509
+      spritesheet_enemies_13: 5474153766058879034
+      spritesheet_enemies_14: -8910364851905446463
+      spritesheet_enemies_21: -3028714126569234196
+      spritesheet_enemies_24: 7106103321386498259
+      spritesheet_enemies_12: 7925522885140249611
+      spritesheet_enemies_45: -5261026262828466501
+      spritesheet_enemies_40: 23977290989665235
+      spritesheet_enemies_38: 1661652073030284993
+      spritesheet_enemies_15: -8429358257427955601
+      spritesheet_enemies_27: -4917492571196117244
+      spritesheet_enemies_32: 9121187699069218145
+      spritesheet_enemies_20: 1142953080573688976
+      spritesheet_enemies_30: -7451832223784103417
+      spritesheet_enemies_52: -3601493181505037416
+      spritesheet_enemies_41: 2484051202323077569
+      spritesheet_enemies_47: -8932853692367823401
+      spritesheet_enemies_17: -7118738110122857603
+      spritesheet_enemies_28: -341764975040952826
+      spritesheet_enemies_3: 7454244456074240545
+      spritesheet_enemies_2: 3919647977461896085
+      spritesheet_enemies_31: 5522356946967957197
+      spritesheet_enemies_51: -6807916323050979422
+      spritesheet_enemies_10: 9209502623412851429
+      spritesheet_enemies_39: 1773869474993066823
+      spritesheet_enemies_53: -7795198085212673789
+      spritesheet_enemies_54: -3557830527945684013
+      spritesheet_enemies_50: 6380694761450218788
+      spritesheet_enemies_7: -372778437775962894
+      spritesheet_enemies_46: -5025747529218060553
+      spritesheet_enemies_35: 7735098217932679800
+      spritesheet_enemies_56: 7736219153867051377
+      spritesheet_enemies_16: 1659889319377078165
+      spritesheet_enemies_1: 6109263987078402175
+      spritesheet_enemies_22: -447052439884736548
+      spritesheet_enemies_44: -653719294434318222
+      spritesheet_enemies_11: -9104941755966664197
+      spritesheet_enemies_18: -4174242650787226205
+      spritesheet_enemies_36: 8533206994898574198
+      spritesheet_enemies_19: -2246804804392454685
+      spritesheet_enemies_34: -1808201450890323625
+      spritesheet_enemies_37: 6374725203773262524
+      spritesheet_enemies_6: -8445709700532192620
+      spritesheet_enemies_48: -3410856396289314838
+      spritesheet_enemies_23: 7158062596903625656
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

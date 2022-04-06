@@ -360,6 +360,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -2800,6 +2801,119 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      platformerPack_industrial_tilesheet@2_52: -4279542918545721506
+      platformerPack_industrial_tilesheet@2_106: 4984757491751318045
+      platformerPack_industrial_tilesheet@2_88: -5091943493696656514
+      platformerPack_industrial_tilesheet@2_68: 554668392289564799
+      platformerPack_industrial_tilesheet@2_81: -8641701200820008432
+      platformerPack_industrial_tilesheet@2_83: 302892081120943393
+      platformerPack_industrial_tilesheet@2_69: -4208096147690998147
+      platformerPack_industrial_tilesheet@2_63: 5041623028122863840
+      platformerPack_industrial_tilesheet@2_22: 438960916875299400
+      platformerPack_industrial_tilesheet@2_71: 437572624563857847
+      platformerPack_industrial_tilesheet@2_97: -3285861072202799581
+      platformerPack_industrial_tilesheet@2_107: 5723093659101897667
+      platformerPack_industrial_tilesheet@2_91: -6292317891972029095
+      platformerPack_industrial_tilesheet@2_1: 5115962203946733563
+      platformerPack_industrial_tilesheet@2_17: -4239874634145780860
+      platformerPack_industrial_tilesheet@2_92: 4539741001002995575
+      platformerPack_industrial_tilesheet@2_7: 5849566227693542101
+      platformerPack_industrial_tilesheet@2_33: 4109950065951828827
+      platformerPack_industrial_tilesheet@2_104: 8362018944615682871
+      platformerPack_industrial_tilesheet@2_98: 1090314553998775837
+      platformerPack_industrial_tilesheet@2_44: 4706759561647285647
+      platformerPack_industrial_tilesheet@2_105: 3504624441838478058
+      platformerPack_industrial_tilesheet@2_50: -7186766239337271016
+      platformerPack_industrial_tilesheet@2_8: -271422146598360239
+      platformerPack_industrial_tilesheet@2_78: 3964909817004838307
+      platformerPack_industrial_tilesheet@2_84: -159603834045390486
+      platformerPack_industrial_tilesheet@2_57: -5471966943658521175
+      platformerPack_industrial_tilesheet@2_23: -3699196649197052302
+      platformerPack_industrial_tilesheet@2_94: 3406773427689381397
+      platformerPack_industrial_tilesheet@2_43: 4187467584987538386
+      platformerPack_industrial_tilesheet@2_9: 6577724850526896223
+      platformerPack_industrial_tilesheet@2_11: 7758824774356981197
+      platformerPack_industrial_tilesheet@2_47: -6624190106590340691
+      platformerPack_industrial_tilesheet@2_15: 2970775680427245155
+      platformerPack_industrial_tilesheet@2_65: 1791791405529930493
+      platformerPack_industrial_tilesheet@2_87: -4844328895023404871
+      platformerPack_industrial_tilesheet@2_3: 7815284713562552440
+      platformerPack_industrial_tilesheet@2_95: 7929208345320263726
+      platformerPack_industrial_tilesheet@2_51: 8889942199031699133
+      platformerPack_industrial_tilesheet@2_99: -8186652718268315511
+      platformerPack_industrial_tilesheet@2_64: -6018059187383894960
+      platformerPack_industrial_tilesheet@2_103: 2769469477353395319
+      platformerPack_industrial_tilesheet@2_36: 565538904241399406
+      platformerPack_industrial_tilesheet@2_55: 6667955590687240318
+      platformerPack_industrial_tilesheet@2_70: 8002279358861708032
+      platformerPack_industrial_tilesheet@2_79: -1381143653464364977
+      platformerPack_industrial_tilesheet@2_56: -8784824826683174775
+      platformerPack_industrial_tilesheet@2_6: -1933422301845929654
+      platformerPack_industrial_tilesheet@2_14: 2208196240290299283
+      platformerPack_industrial_tilesheet@2_60: -3798673259172256710
+      platformerPack_industrial_tilesheet@2_93: 2127541305894799230
+      platformerPack_industrial_tilesheet@2_100: 1573768914125265941
+      platformerPack_industrial_tilesheet@2_18: 2279164290795285852
+      platformerPack_industrial_tilesheet@2_42: 6461971638147945027
+      platformerPack_industrial_tilesheet@2_20: -1601263494670887810
+      platformerPack_industrial_tilesheet@2_108: 4167488390735210845
+      platformerPack_industrial_tilesheet@2_13: 3573815777511509118
+      platformerPack_industrial_tilesheet@2_110: -204442213233094047
+      platformerPack_industrial_tilesheet@2_102: -1355943756540654545
+      platformerPack_industrial_tilesheet@2_12: -8445637046764712909
+      platformerPack_industrial_tilesheet@2_34: 1965652601706736040
+      platformerPack_industrial_tilesheet@2_10: -4977090273709795318
+      platformerPack_industrial_tilesheet@2_76: 1567633538114114094
+      platformerPack_industrial_tilesheet@2_53: -2916242199201206993
+      platformerPack_industrial_tilesheet@2_66: -4250898100900098517
+      platformerPack_industrial_tilesheet@2_48: -808949991106998133
+      platformerPack_industrial_tilesheet@2_26: -3610120727023031104
+      platformerPack_industrial_tilesheet@2_24: -6817895607678284397
+      platformerPack_industrial_tilesheet@2_61: 4415019861817229399
+      platformerPack_industrial_tilesheet@2_54: -5575906277664082836
+      platformerPack_industrial_tilesheet@2_30: 117421620730538998
+      platformerPack_industrial_tilesheet@2_75: 4456586569002308460
+      platformerPack_industrial_tilesheet@2_85: -9011402608620969799
+      platformerPack_industrial_tilesheet@2_38: -6262629071397343672
+      platformerPack_industrial_tilesheet@2_39: -2984882218248806545
+      platformerPack_industrial_tilesheet@2_86: -3736643876614837009
+      platformerPack_industrial_tilesheet@2_101: 9114296720607569647
+      platformerPack_industrial_tilesheet@2_31: -2324035220106119914
+      platformerPack_industrial_tilesheet@2_67: -2286890807505858032
+      platformerPack_industrial_tilesheet@2_4: -3634029403541213648
+      platformerPack_industrial_tilesheet@2_96: -8468952267758327474
+      platformerPack_industrial_tilesheet@2_25: 4354296094957848057
+      platformerPack_industrial_tilesheet@2_40: 2423577496454621461
+      platformerPack_industrial_tilesheet@2_19: -4762051312759039475
+      platformerPack_industrial_tilesheet@2_49: 3887158709216934771
+      platformerPack_industrial_tilesheet@2_80: 1649998845150861471
+      platformerPack_industrial_tilesheet@2_45: 8458574259299307159
+      platformerPack_industrial_tilesheet@2_74: -3290290011987142809
+      platformerPack_industrial_tilesheet@2_29: 6382832161550427702
+      platformerPack_industrial_tilesheet@2_27: -6185434336725778215
+      platformerPack_industrial_tilesheet@2_32: -2954629809350763312
+      platformerPack_industrial_tilesheet@2_5: 701678376550061948
+      platformerPack_industrial_tilesheet@2_111: 1376517257285752931
+      platformerPack_industrial_tilesheet@2_59: 4531020677868686437
+      platformerPack_industrial_tilesheet@2_35: -3943558020815193384
+      platformerPack_industrial_tilesheet@2_90: 7591705843446261162
+      platformerPack_industrial_tilesheet@2_16: -6312523222017732086
+      platformerPack_industrial_tilesheet@2_82: 6760831518164175678
+      platformerPack_industrial_tilesheet@2_109: 8490998830422651989
+      platformerPack_industrial_tilesheet@2_21: -7344410806643375436
+      platformerPack_industrial_tilesheet@2_41: 3511106282337647400
+      platformerPack_industrial_tilesheet@2_2: 660620346776009582
+      platformerPack_industrial_tilesheet@2_72: 3974853943974149277
+      platformerPack_industrial_tilesheet@2_37: 8939749644999133359
+      platformerPack_industrial_tilesheet@2_46: 3683587052002405373
+      platformerPack_industrial_tilesheet@2_73: -8201503066825532863
+      platformerPack_industrial_tilesheet@2_77: 8486995934403027584
+      platformerPack_industrial_tilesheet@2_0: 3622227400888272936
+      platformerPack_industrial_tilesheet@2_89: 5887705379482468239
+      platformerPack_industrial_tilesheet@2_28: 3429576464829264871
+      platformerPack_industrial_tilesheet@2_58: 2733886045972864741
+      platformerPack_industrial_tilesheet@2_62: -4608412767251342890
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
