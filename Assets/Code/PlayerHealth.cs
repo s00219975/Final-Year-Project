@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class PlayerHealth : MonoBehaviour
+public class PlayerHealth : HealthConroller
 {
     public Image imgHealthBar;
     public GameObject Blood;
@@ -19,27 +19,42 @@ public class PlayerHealth : MonoBehaviour
         OnHealthUpdated();
     }
 
-    public void OnHealthUpdated()
-    {      
-        imgHealthBar.rectTransform.sizeDelta = new Vector2(125 * Health, 120);
+    public override void OnHealthUpdated()
+    {
+        if (Health == 3)
+        {
+            imgHealthBar.rectTransform.sizeDelta = new Vector2(382, 120);
+        }
+        else if (Health == 2)
+        {
+            imgHealthBar.rectTransform.sizeDelta = new Vector2(250, 120);
+        }
+        else if (Health == 1)
+        {
+            imgHealthBar.rectTransform.sizeDelta = new Vector2(125, 120);
+        }
+        else if (Health == 0)
+        {
+            imgHealthBar.rectTransform.sizeDelta = new Vector2(5, 120);
+        }
     }
 
-    //void ResetCooldown()
-    //{
-    //    isInCooldown = false;
-    //}
+    void ResetCooldown()
+    {
+        isInCooldown = false;
+    }
 
-    //private void OnCollisionStay2D(Collision2D collision)
-    //{
-    //    if (!isInCooldown)
-    //    {
-    //        Invoke("ResetCooldown", 2);
-    //        HandleCollision(collision.gameObject);
-    //        isInCooldown = true;
-    //    }
-    //}
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (!isInCooldown)
+        {
+            Invoke("ResetCooldown", 2);
+            HandleCollision(collision.gameObject);
+            isInCooldown = true;
+        }
+    }
 
-    public void HandleCollision(GameObject otherObject)
+    public override void HandleCollision(GameObject otherObject)
     {
         if (otherObject.CompareTag("mainEnemy"))
         {
@@ -62,6 +77,8 @@ public class PlayerHealth : MonoBehaviour
             SubtractHealth(amount);
             Instantiate(Blood, transform.position, Quaternion.identity);
         }
+
+        base.HandleCollision(otherObject);
     }
 
     public void AddHealth(int amount)
@@ -88,8 +105,10 @@ public class PlayerHealth : MonoBehaviour
         OnHealthUpdated();
     }
 
-    public void OnDeath()
+    public override void OnDeath()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+        base.OnDeath();
     }
 }

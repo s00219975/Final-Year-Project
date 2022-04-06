@@ -1,25 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 
 public class LevelGenerator : MonoBehaviour
 {
-    public int width;
-
     public GameObject[] tilePrefab;
     private float spawnPosition = 0;
 
-    //Tile width size is 55
+    //Tile width is 55
     public float tileLenght = 55;
-    private int spawnTiles = 6;
+    private int spawnTiles = 3;
 
     private List<GameObject> activeTiles = new List<GameObject>();
 
     [SerializeField] private Transform player;
 
-
-    // Start is called before the first frame update
     void Start()
     {
         SpawnTile(0);
@@ -30,7 +25,6 @@ public class LevelGenerator : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (player.position.x - 30 > spawnPosition - (spawnTiles * tileLenght))
