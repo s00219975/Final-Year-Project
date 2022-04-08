@@ -13,6 +13,7 @@ public enum CharacterState
 
 public class Character : MonoBehaviour
 {
+    public PlayerHealth playerhealth;
     public CharacterState State;
     PlayerMovement playerMovement;
     Animator animator;
@@ -22,12 +23,18 @@ public class Character : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         playerMovement = GetComponent<PlayerMovement>();
+        playerhealth = GetComponent<PlayerHealth>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(playerMovement.body.velocity.y > 0.1f || playerMovement.body.velocity.y < -0.1f)
+        if (playerhealth.Health == 0)
+        {
+            State = CharacterState.Dead;
+            playerMovement.enabled = false;
+        }
+        else if(playerMovement.body.velocity.y > 0.1f || playerMovement.body.velocity.y < -0.1f)
         {
             State = CharacterState.Jump;
         }
@@ -35,7 +42,7 @@ public class Character : MonoBehaviour
         {
             State = CharacterState.Run;
         }
-        else
+        else if (playerMovement.body.velocity.x == 0)
         {
             State = CharacterState.Idle;
         }

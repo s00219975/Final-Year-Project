@@ -17,11 +17,14 @@ public class LevelGenerator : MonoBehaviour
 
     void Start()
     {
-        SpawnTile(0);
-
         for (int i = 0; i < spawnTiles; i++)
         {
-            SpawnTile(Random.Range(0, tilePrefab.Length));
+            if (i == 0)
+            {
+                SpawnTile(3);
+            }
+
+            SpawnTile(Random.Range(0, tilePrefab.Length - 1));
         }
     }
 
