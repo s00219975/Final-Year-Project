@@ -99,7 +99,7 @@ public class PlayerHealth : HealthConroller
 
     public override void OnDeath()
     {
-        Invoke("DeathPanelActive", 2);
+        Invoke("DeathPanelActive", 1.5f);
 
         base.OnDeath();
     }

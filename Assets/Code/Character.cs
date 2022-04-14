@@ -33,6 +33,8 @@ public class Character : MonoBehaviour
         {
             State = CharacterState.Dead;
             playerMovement.enabled = false;
+            playerMovement.body.constraints = RigidbodyConstraints2D.FreezeAll;
+
         }
         else if(playerMovement.body.velocity.y > 0.1f || playerMovement.body.velocity.y < -0.1f)
         {
