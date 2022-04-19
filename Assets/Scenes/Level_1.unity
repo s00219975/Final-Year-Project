@@ -459,8 +459,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundPrefab:
-  - {fileID: 2199568835700594005, guid: db670d3662fb2bf4fbb32d9ef5fca87e, type: 3}
-  - {fileID: 1277471065389705022, guid: 61004edf3f9d81e42894a818ce87131b, type: 3}
+  - {fileID: 8105856246902934871, guid: db670d3662fb2bf4fbb32d9ef5fca87e, type: 3}
+  - {fileID: 6170365718494809916, guid: b88dfe316070cef4794f7437f0a594b9, type: 3}
   backgroundWidth: 61.44
   player: {fileID: 1204954058}
 --- !u!1 &580208417
@@ -1377,7 +1377,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.09812211, g: 0.21223593, b: 0.3301887, a: 0}
+  m_BackGroundColor: {r: 0.4429512, g: 0.7121178, b: 0.990566, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
