@@ -1644,6 +1644,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3513581061123122832, guid: cc659a095e205944893708951fa53032, type: 3}
+      propertyPath: distance
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3513581061123122832, guid: cc659a095e205944893708951fa53032, type: 3}
+      propertyPath: whatIsLadder.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
     - target: {fileID: 3513581061123122836, guid: cc659a095e205944893708951fa53032, type: 3}
       propertyPath: m_SortingOrder
       value: 2

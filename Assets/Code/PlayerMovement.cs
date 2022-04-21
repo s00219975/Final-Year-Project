@@ -8,7 +8,13 @@ public class PlayerMovement : MonoBehaviour
     Vector2 movementVector;
     public Vector2 jumpHeight;
     public bool canJump = true;
-    float currentSpeed; //will use for modifiers
+
+    private float inputVertical;
+    public float distance;
+    public LayerMask whatIsLadder;
+    private bool isClimbing;
+
+    float currentSpeed; //will use for modifiers?
 
     Vector3 RestartPosition;
 
@@ -52,6 +58,31 @@ public class PlayerMovement : MonoBehaviour
         //movement
         movementVector.x = Input.GetAxisRaw("Horizontal");
         movementVector *= movementSpeed;
+
+        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.up, distance, whatIsLadder);
+        if (hitInfo.collider != null)
+        {
+            if (Input.GetKeyDown(KeyCode.UpArrow)) 
+            {
+                isClimbing = true;
+            }
+        }
+        else
+        {
+            isClimbing = false;
+        }
+
+        if (isClimbing == true)
+        {
+            inputVertical = Input.GetAxisRaw("Vertical");
+            body.velocity = new Vector2(body.position.x, inputVertical * movementSpeed);
+            body.gravityScale = 0;
+        }
+        else
+        {
+            body.gravityScale = 1.25f;
+        }
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
