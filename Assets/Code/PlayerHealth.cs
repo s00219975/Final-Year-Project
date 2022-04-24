@@ -8,7 +8,7 @@ public class PlayerHealth : HealthConroller
 {
     public Image imgHealthBar;
     public GameObject Blood;
-    public int Health = 3;
+    public float Health = 3;
     public int MaxHealth = 3;
     public GameObject DeathPanel;
 
@@ -57,6 +57,13 @@ public class PlayerHealth : HealthConroller
             Instantiate(Blood, transform.position, Quaternion.identity);
         }
 
+        if (otherObject.CompareTag("FireBall"))
+        {
+            float amount = 0.5f;
+            SubtractHealth(amount);
+            Instantiate(Blood, transform.position, Quaternion.identity);
+        }
+
         if (otherObject.CompareTag("InstantKill"))
         {
             int amount = 3;
@@ -80,6 +87,18 @@ public class PlayerHealth : HealthConroller
     }
 
     public void SubtractHealth(int amount)
+    {
+        Health -= amount;
+
+        if (Health <= 0)
+        {
+            OnDeath();
+        }
+
+        OnHealthUpdated();
+    }
+
+    public void SubtractHealth(float amount)
     {
         Health -= amount;
 

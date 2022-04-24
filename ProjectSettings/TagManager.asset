@@ -9,6 +9,8 @@ TagManager:
   - mainEnemy
   - InstantKill
   - Coin
+  - Ladder
+  - FireBall
   layers:
   - Default
   - TransparentFX
@@ -18,7 +20,7 @@ TagManager:
   - UI
   - Platform
   - Ladder
-  - 
+  - Fireball
   - 
   - 
   - 

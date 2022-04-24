@@ -1340,6 +1340,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484677970}
   m_CullTransparentMesh: 1
+--- !u!4 &1669273708 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4454437726058611613, guid: 6b13577a2e79f1b4ea08aaed9b081017, type: 3}
+  m_PrefabInstance: {fileID: 8869583041471774094}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1670812640
 GameObject:
   m_ObjectHideFlags: 0
@@ -1734,6 +1739,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4454437726058611613, guid: 6b13577a2e79f1b4ea08aaed9b081017, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.39
+      objectReference: {fileID: 0}
     - target: {fileID: 8869583039870550983, guid: 6b13577a2e79f1b4ea08aaed9b081017, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1744,11 +1753,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869583039870550984, guid: 6b13577a2e79f1b4ea08aaed9b081017, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.53
+      value: -16.68
       objectReference: {fileID: 0}
     - target: {fileID: 8869583039870550984, guid: 6b13577a2e79f1b4ea08aaed9b081017, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.43
+      value: -3.68
       objectReference: {fileID: 0}
     - target: {fileID: 8869583039870550984, guid: 6b13577a2e79f1b4ea08aaed9b081017, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1784,8 +1793,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869583039870550985, guid: 6b13577a2e79f1b4ea08aaed9b081017, type: 3}
       propertyPath: movementSpeed
-      value: 3.5
+      value: 3.75
       objectReference: {fileID: 0}
+    - target: {fileID: 8869583039870550985, guid: 6b13577a2e79f1b4ea08aaed9b081017, type: 3}
+      propertyPath: FireBallPrefab
+      value: 
+      objectReference: {fileID: 533860652525283146, guid: 44de40a490ae85b4db3fc4f0edd29e59, type: 3}
+    - target: {fileID: 8869583039870550985, guid: 6b13577a2e79f1b4ea08aaed9b081017, type: 3}
+      propertyPath: FireBallSpawnPoint
+      value: 
+      objectReference: {fileID: 1669273708}
     - target: {fileID: 8869583039870550987, guid: 6b13577a2e79f1b4ea08aaed9b081017, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -1800,7 +1817,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869583039870550989, guid: 6b13577a2e79f1b4ea08aaed9b081017, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b13577a2e79f1b4ea08aaed9b081017, type: 3}
