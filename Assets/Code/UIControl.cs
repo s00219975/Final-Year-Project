@@ -1,20 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class UIControl : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Text ScoreText;
+    public Text highScore;
+
     void Start()
     {
-        
+        highScore.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        Score();
+    }
+
+    public void Score()
+    {
+        int score = Mathf.FloorToInt(Time.timeSinceLevelLoad);
+        ScoreText.text = score.ToString();
+
+        if (score > PlayerPrefs.GetInt("HighScore", 0))
+        {
+            PlayerPrefs.SetInt("HighScore", score);
+            highScore.text = score.ToString();
+        }
     }
 
     public void Restart()
