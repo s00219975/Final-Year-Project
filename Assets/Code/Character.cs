@@ -8,7 +8,8 @@ public enum CharacterState
     Idle = 0,
     Run = 1,
     Jump = 2,
-    Dead = 3
+    Dead = 3,
+    Blinking = 4
 }
 
 public class Character : MonoBehaviour
@@ -34,7 +35,10 @@ public class Character : MonoBehaviour
             State = CharacterState.Dead;
             playerMovement.enabled = false;
             playerMovement.body.constraints = RigidbodyConstraints2D.FreezeAll;
-
+        }
+        else if (playerhealth.isDamaged == true)
+        {
+            State = CharacterState.Blinking;
         }
         else if(playerMovement.body.velocity.y > 0.1f || playerMovement.body.velocity.y < -0.1f)
         {

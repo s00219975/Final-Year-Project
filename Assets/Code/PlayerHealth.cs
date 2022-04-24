@@ -11,12 +11,17 @@ public class PlayerHealth : HealthConroller
     public float Health = 3;
     public int MaxHealth = 3;
     public GameObject DeathPanel;
+    Animator animator;
+
+    public CharacterState State;
 
     //set a cooldown for some time, thus damage will apply every x seconds
     bool isInCooldown = false;
+    public bool isDamaged = false;
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
         OnHealthUpdated();
     }
 
@@ -42,28 +47,6 @@ public class PlayerHealth : HealthConroller
 
     public override void HandleCollision(GameObject otherObject)
     {
-        if (otherObject.CompareTag("mainEnemy"))
-        {
-            MainEnemyController mainEnemy = otherObject.GetComponent<MainEnemyController>();
-            int amount = mainEnemy.Damage;
-            SubtractHealth(amount);
-            Instantiate(Blood, transform.position, Quaternion.identity);
-        }
-
-        if (otherObject.CompareTag("Kill"))
-        {
-            int amount = 1;
-            SubtractHealth(amount);
-            Instantiate(Blood, transform.position, Quaternion.identity);
-        }
-
-        if (otherObject.CompareTag("FireBall"))
-        {
-            float amount = 0.5f;
-            SubtractHealth(amount);
-            Instantiate(Blood, transform.position, Quaternion.identity);
-        }
-
         if (otherObject.CompareTag("InstantKill"))
         {
             int amount = 3;
@@ -71,7 +54,52 @@ public class PlayerHealth : HealthConroller
             Instantiate(Blood, transform.position, Quaternion.identity);
         }
 
+        if (gameObject.CompareTag("Player"))
+        {
+            if (otherObject.CompareTag("mainEnemy"))
+            {
+                MainEnemyController mainEnemy = otherObject.GetComponent<MainEnemyController>();
+                int amount = mainEnemy.Damage;
+                SubtractHealth(amount);
+                Instantiate(Blood, transform.position, Quaternion.identity);
+                isDamaged = true;
+            }
+
+            if (otherObject.CompareTag("Kill"))
+            {
+                int amount = 1;
+                SubtractHealth(amount);
+                Instantiate(Blood, transform.position, Quaternion.identity);
+                isDamaged = true;
+            }
+
+            if (otherObject.CompareTag("FireBall"))
+            {
+                float amount = 0.5f;
+                SubtractHealth(amount);
+                Instantiate(Blood, transform.position, Quaternion.identity);
+                isDamaged = true;
+            }            
+
+            Recovery();           
+        }                     
+
         base.HandleCollision(otherObject);
+    }
+
+    void Recovery()
+    {
+        if (isDamaged == true)
+        {                     
+            gameObject.tag = "Untagged"; 
+            Invoke("StopRecovery", 2);
+        }
+    }
+
+    void StopRecovery()
+    {
+        gameObject.tag = "Player";
+        isDamaged = false;
     }
 
     public void AddHealth(int amount)
