@@ -54,6 +54,13 @@ public class PlayerHealth : HealthConroller
             Instantiate(Blood, transform.position, Quaternion.identity);
         }
 
+        if (otherObject.CompareTag("Health"))
+        {
+            float amount = 0.5f;
+            AddHealth(amount);
+            Destroy(otherObject);
+        }
+
         if (gameObject.CompareTag("Player"))
         {
             if (otherObject.CompareTag("mainEnemy"))
@@ -107,6 +114,18 @@ public class PlayerHealth : HealthConroller
         Health += amount;
 
         if (Health > MaxHealth)
+        {
+            Health = MaxHealth;
+        }
+
+        OnHealthUpdated();
+    }
+
+    public void AddHealth(float amount)
+    {
+        Health += amount;
+
+        if (Health > 3)
         {
             Health = MaxHealth;
         }
