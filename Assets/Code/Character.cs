@@ -35,7 +35,7 @@ public class Character : MonoBehaviour
             State = CharacterState.Dead;
             playerMovement.enabled = false;
             playerMovement.body.gravityScale = 3;
-            playerMovement.body.constraints = RigidbodyConstraints2D.FreezePositionX;
+            playerMovement.body.constraints = RigidbodyConstraints2D.FreezeAll;
         }
         else if (playerhealth.isDamaged == true)
         {

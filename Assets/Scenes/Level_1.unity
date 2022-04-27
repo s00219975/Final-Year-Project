@@ -532,7 +532,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &577547854
 MonoBehaviour:
@@ -920,7 +920,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1105524690
 GameObject:
@@ -1367,7 +1367,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1484677970
 GameObject:
@@ -1784,11 +1784,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3513581061123122839, guid: cc659a095e205944893708951fa53032, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.85
+      value: -10.47
       objectReference: {fileID: 0}
     - target: {fileID: 3513581061123122839, guid: cc659a095e205944893708951fa53032, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.07
+      value: -2.42
       objectReference: {fileID: 0}
     - target: {fileID: 3513581061123122839, guid: cc659a095e205944893708951fa53032, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1866,7 +1866,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869583039870550984, guid: 6b13577a2e79f1b4ea08aaed9b081017, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20
+      value: -25
       objectReference: {fileID: 0}
     - target: {fileID: 8869583039870550984, guid: 6b13577a2e79f1b4ea08aaed9b081017, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1906,7 +1906,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869583039870550985, guid: 6b13577a2e79f1b4ea08aaed9b081017, type: 3}
       propertyPath: movementSpeed
-      value: 3.75
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 8869583039870550985, guid: 6b13577a2e79f1b4ea08aaed9b081017, type: 3}
       propertyPath: FireBallPrefab
