@@ -17,7 +17,7 @@ public class MainEnemyController : EnemyController
     protected override void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        InvokeRepeating("Shoot", 4, 3);
+        InvokeRepeating("Shoot", 4, 3.5f);
         
         base.Start();
     }

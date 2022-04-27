@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class UIControl : MonoBehaviour
 {
@@ -29,11 +28,5 @@ public class UIControl : MonoBehaviour
             PlayerPrefs.SetInt("HighScore", score);
             highScore.text = score.ToString();
         }
-    }
-
-    public void Restart()
-    {
-        SceneManager.LoadScene("Level_1");
-        Time.timeScale = 1.0f;
-    }
+    }    
 }
