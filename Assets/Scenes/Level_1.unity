@@ -163,8 +163,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -771.23, y: 183}
-  m_SizeDelta: {x: -1542.5, y: -633.328}
+  m_AnchoredPosition: {x: -771.2, y: 263}
+  m_SizeDelta: {x: -1542.5, y: -793.31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &38203527
 MonoBehaviour:
@@ -1376,8 +1376,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -771.22656, y: 354.45}
-  m_SizeDelta: {x: -1542.4531, y: -708.9}
+  m_AnchoredPosition: {x: -771.22656, y: 473.32}
+  m_SizeDelta: {x: -1542.453, y: -946.63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1247153964
 MonoBehaviour:
@@ -1782,7 +1782,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: -66.346054}
-  m_SizeDelta: {x: 377.57, y: 132.69}
+  m_SizeDelta: {x: 375, y: 132.69}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1484677972
 MonoBehaviour:
@@ -2128,8 +2128,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 867.10345, y: 411.32883}
-  m_SizeDelta: {x: -1734.207, y: -822.656}
+  m_AnchoredPosition: {x: 867.10345, y: 449.8152}
+  m_SizeDelta: {x: -1734.207, y: -899.629}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1588314907
 MonoBehaviour:
@@ -2577,7 +2577,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: -66.348}
-  m_SizeDelta: {x: 377.57, y: 132.69}
+  m_SizeDelta: {x: 375, y: 132.69}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &2088222052
 MonoBehaviour:
@@ -2792,7 +2792,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869583039870550989, guid: 6b13577a2e79f1b4ea08aaed9b081017, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b13577a2e79f1b4ea08aaed9b081017, type: 3}

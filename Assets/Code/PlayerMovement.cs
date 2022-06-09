@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,23 +14,19 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask whatIsLadder;
     private bool isClimbing;
 
-    float currentSpeed; //will use for modifiers?
-
-    Vector3 RestartPosition;
-
     public Rigidbody2D body;
 
     SpriteRenderer spriteRenderer;
 
-    // Start is called before the first frame update
+    // Start викликається перед оновленням першого кадру
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        RestartPosition = transform.position;
+        Vector3 RestartPosition = transform.position;
     }
 
-    // Update is called once per frame
+    // Update викликається один раз на кадр
     void Update()
     {
         if (movementVector.x > 0)
@@ -44,7 +40,6 @@ public class PlayerMovement : MonoBehaviour
 
         if (canJump && Input.GetButtonDown("Jump"))
         {
-            //Add force to the player
             body.AddForce(jumpHeight, ForceMode2D.Impulse);
             canJump = false;
         }
@@ -53,9 +48,9 @@ public class PlayerMovement : MonoBehaviour
         body.velocity = movementVector;
     }
 
+    // FixedUpdate викликається один раз на кадр
     private void FixedUpdate()
     {
-        //movement
         movementVector.x = Input.GetAxisRaw("Horizontal");
         movementVector *= movementSpeed;
 
